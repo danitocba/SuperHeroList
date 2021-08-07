@@ -24,7 +24,7 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.ViewHolder>() {
         this.context = context
     }
 
-    //métodos obligatorios que se implementan de la clase RecyclerView.
+    //métodos obligatorios que se implementan de la clase RecyclerView...
 
     //onBindViewHolder() se encarga de coger cada una de las posiciones de la lista de superhéroes y pasarlas a la clase ViewHolder
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {

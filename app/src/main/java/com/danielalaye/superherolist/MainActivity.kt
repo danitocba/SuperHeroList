@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    //Funcion que devuelve una lista de Superheros.
+    //Funcion que devuelve una lista de Superheros...
     fun getSuperheros(): MutableList<Superhero>{
         var superheros:MutableList<Superhero> = ArrayList()
         superheros.add(Superhero("Spiderman", "Marvel", "Peter Parker", "https://cursokotlin.com/wp-content/uploads/2017/07/spiderman.jpg"))
